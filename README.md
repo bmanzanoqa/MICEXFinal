@@ -12,8 +12,8 @@
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
 * [Known Issues](#known-issues)
-* [Future Improvements](#future-improvements)
 * [Authors](#authors)
+* [Thank you!](#thank-you)
 
 ## Summary
 ### History 
@@ -22,11 +22,11 @@ This here is how all started.... [First Idea](https://github.com/bmanzanoqa/MICE
 One day.... it will look like that, till then....
 <details>
 <summary>"Click me!"</summary>
-![Login](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD1.png) 
-![Items CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD2.png)  
-![Items UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD3.png)  
-![Exhibitions CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD4.png)  
-![Exhibitions UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD5.png)  
+![Login](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD1.png)      
+![Items CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD2.png)    
+![Items UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD3.png)    
+![Exhibitions CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD4.png)    
+![Exhibitions UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD5.png)    
 </details>
 
 ## So.... the simpler version:
@@ -97,15 +97,11 @@ For the testing side of the peoject I have used pytest as testing environment an
 
 
 ### JENKINS
-Jenkins is an open-source implementation of a Continuous Integration server written in Java. It works with multiple programming languages and can run on various platforms (Windows, Linux, and macOS). It is widely used as a CI (Continuous Integration) & CD (Continuous Delivery) tool.
+Jenkins is an open-source implementation of a Continuous Integration server written in Java. It works with multiple programming languages and can run on various platforms (Windows, Linux, and macOS). It is widely used as a CI (Continuous Integration) & CD (Continuous Delivery) tool.  
 Within this project I have used Jenkins to automatize tasks that are monotonous and can be easily done by running a script.
-![Installing Jenkins](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Installing%20Jenkins.PNG)
-![Jenkins Build](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20Build.PNG)
-![Jenkins Script](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20script.PNG)
-
-
-
-
+![Installing Jenkins](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Installing%20Jenkins.PNG)   
+![Jenkins Build](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20Build.PNG)    
+![Jenkins Script](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20script.PNG)     
 
 
 ## Testing
@@ -114,13 +110,6 @@ I have used pytest as my testing tool.
 
 I started with unit testing, runing a total of 12 tests and reaching 95% of the covering report as you can see in the image below. You can also look at the HTML report [here](file:///C:/Users/B/Desktop/MICEXFinal/Supporting%20Files/Coverage%20Report.html).
 
-Screenshots of my progress are below:  
-![Some Time Ago](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Coverage%201.png)  
-![Final report](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/final%20coverage.png)
-
-
-
-
 Below is my first error when running unit testing with pytest....
 [First error](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/First%20error%20running%20pytest.png).  
 And it finally worked! I think what caused me the most trouble with the unit testing were the validators. 
@@ -128,31 +117,42 @@ And it finally worked! I think what caused me the most trouble with the unit tes
 Here you can see some of the many errors I encountered with doing [integration testing](https://onedrive.live.com/view.aspx?resid=96A94FCBFABC7DB5%2170903&id=documents&wd=target%28MICEX.one%7C5462FF26-5891-4F62-AC9E-01DC3AAB8BC9%2FErrors%7CC861D920-7CD4-41FE-B595-D82E5FE51456%2F%29). My machine just refuses to connect.... I would be logged into the terminal of the VM and I would be running a test and even though I am connected to it I will get errors saying it cannot connect. 
 
 
+Screenshots of my progress are below:  
+![Some Time Ago](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Coverage%201.png)     
+![Final report](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/final%20coverage.png)  
+
 
 
 # Front-end Line
+As per the scope of this project I have created a CRUD application where I am able to Create Items and Exhibitions, Read them, Update boths and Delete them. This should be sufficient for the scope of the project.
 
-![First time app worked](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/First%20time%20home%20page%20worked.PNG)
+I am proud to show the ![First time the app worked](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/First%20time%20home%20page%20worked.PNG). It was the most fantastic feeling just to see @big Ben' written in the screen.
 
+Below there are some screenshoots of what the app looks like at this stage.
 
+![Home page]()    
+![Add Items]()    
+![Update Exhibition]()    
 
+As the project has progressed the file directory has changed as shown in the pictures below
+![Directories1]()
+![Directories1]()
 
 # GCP
+I have been using GCP as a cloud provider for this projects. I have created a Virtual Machine Ubuntu 18.04LTS and a MySql Database to house the data needed.
+In many occasions I have different issues with conecting to both machines and this will be something I will try to resolve in the near future. Should you want to see at some of those issues just "click me!!"
 <details>
 <summary>"Click me!!"</summary>
-![Logging connection app through GCP](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Logging%20connecting%20app%20through%20GCP.PNG)  
-![unable to connect1](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%2023.04.PNG)  
-![unable to connect2](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%2023.05%2020.04.PNG)  
-![unable to connect3](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%20exp%2023.04.PNG)  
-![unable to connect4](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20VM%2023.05%2020.09.PNG)  
-![VM running](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/VM%20running%20APP.PNG)
-![Installed Flask but it does not exist]()
-
+![Logging connection app through GCP](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Logging%20connecting%20app%20through%20GCP.PNG)       
+![unable to connect1](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%2023.04.PNG)        
+![unable to connect2](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%2023.05%2020.04.PNG)          
+![unable to connect3](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%20exp%2023.04.PNG)         
+![unable to connect4](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20VM%2023.05%2020.09.PNG)        
+![VM running](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/VM%20running%20APP.PNG)           
 <details>
 
+## Author
+Beatriz Manzano finished the first part of this project on the 24/05/2021
 
-| Left Align  | Centre Align | Right Align   |
-| :---        |    :----:    |          ---: |
-| Row1        | Row1         | Row1          |
-| Row2        | Row2         | Row2          |
-
+## Thank you!
+Thank you to my trainers and everyone in my class for all the patience that have had and the help they have always provided.
