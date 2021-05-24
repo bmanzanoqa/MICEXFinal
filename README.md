@@ -11,7 +11,6 @@
 * [CI Pipeline](#ci-pipeline)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
-* [Known Issues](#known-issues)
 * [Authors](#authors)
 * [Thank you!](#thank-you)
 
@@ -22,11 +21,17 @@ This here is how all started.... [First Idea](https://github.com/bmanzanoqa/MICE
 One day.... it will look like that, till then....
 <details>
 <summary>"Click me!"</summary>
-![Login](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD1.png)                                                                          
-![Items CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD2.png)                                                       
-![Items UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD3.png)                                                    
-![Exhibitions CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD4.png)                                                       
-![Exhibitions UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD5.png)                                                     
+  
+![Login](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD1.png)
+  
+![Items CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD2.png)
+  
+![Items UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD3.png)
+  
+![Exhibitions CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD4.png)
+  
+![Exhibitions UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD5.png) 
+  
 </details>
 
 ## So.... the simpler version:
@@ -102,9 +107,12 @@ For the testing side of the peoject I have used pytest as testing environment an
 ### JENKINS
 Jenkins is an open-source implementation of a Continuous Integration server written in Java. It works with multiple programming languages and can run on various platforms (Windows, Linux, and macOS). It is widely used as a CI (Continuous Integration) & CD (Continuous Delivery) tool.  
 Within this project I have used Jenkins to automatize tasks that are monotonous and can be easily done by running a script.
-![Installing Jenkins](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Installing%20Jenkins.PNG)   
+![Installing Jenkins](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Installing%20Jenkins.PNG)
+
 ![Jenkins Build](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20Build.PNG)    
-![Jenkins Script](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20script.PNG)     
+
+![Jenkins Script](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20script.PNG)   
+
 
 
 ## Testing
@@ -135,7 +143,7 @@ As per the scope of this project I have created a CRUD application where I am ab
 
 I am proud to show the ![First time the app worked](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/First%20time%20home%20page%20worked.PNG). 
 
-It was the most fantastic feeling just to see @big Ben' written in the screen.
+It was the most fantastic feeling just to see 'Big Ben' written in the screen.
 
 Below there are some screenshoots of what the app looks like at this stage.
 
@@ -146,7 +154,9 @@ Below there are some screenshoots of what the app looks like at this stage.
 ![Update Exhibition](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Update%20Exhibition.PNG)    
 
 As the project has progressed the file directory has changed as shown in the pictures below
+
 ![Just before Testing](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Directories1.png)  
+
 
 ![After Testing](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Directories2.PNG)
 
@@ -173,12 +183,11 @@ In many occasions I have different issues with conecting to both machines and th
 
 ![VM running](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/VM%20running%20APP.PNG)  
 
-
-<details>
+</details>
 
 
 ## Author
 Beatriz Manzano finished the first part of this project on the 24/05/2021
 
 ## Thank you!
-Thank you to my trainers and everyone in my class for all the patience that have had and the help they have always provided.
+Thank you to my trainers and everyone in my class for all the patience they have had and the help they have always provided.
