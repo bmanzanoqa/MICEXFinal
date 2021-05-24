@@ -22,7 +22,14 @@
 I love building 'stuff' with microblock pieces. My project is based in the idea of having an APP where I can store the items I build and the rooms (called Exhibitions) where they will be displayed.  I wanted to have a login page where user(other than me, ie, my children) could create a new account or login. Once I had login I would be taken to a page where I would have the options of Items and Exhibitions. In any of these options, once I clicked on them, I would be presented with a selection of CRUD(create, Read, Update,Delete) options. This was more difficult than anticipated so I went for a simpler version.   
 This here is how all started.... [First Idea](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Starting%20point.png) and [Project Structure](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Project%20Structure.png).  
 One day.... it will look like that, till then....
-
+<details>
+<summary>"Click to expand"</summary>
+![Login]()
+![Items CR]()
+![Items UD]()
+![Exhibitions CR]()
+![Exhibitions UD]()
+</details>
 
 ## So.... the simpler version:
 
@@ -62,18 +69,22 @@ Both tables have a primary key (). The foreign key is in the Items table, showin
 
 The relationship is a ```one-to-many``` relationship where an Exhibition can have many Items but an Item can belong or appear in one Exhibition (can't be in 2 places at the same time) .
 
-In the pictures below we can see an Entity Relationship Diagram explaining the relationship between the tables used in this project. This file can be found in [ERD](https://github.com/bmanzanoqa/PythonProjects/blob/main/MICEX/Screenshots.png/ERD%202%20tables.PNG).
+In the pictures below we can see an Entity Relationship Diagram explaining the relationship between the tables used in this project. This file can be found in [ERD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/ERD%202%20tables.PNG).
 
 ![ERD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/ERD%202%20tables.PNG)
 
-
+I created a database in a virtual machine with mysql. The screenshot below shows the data defined for the columns.  
+![Tables]()  
+![Sql Insert]()  
+![Creating a DB message]()
+![SQL INSERT INTO]()
 
 ## Risk Assessment
-We use Risk Assessments to evaluate scenarios that may impact the project in a negative way. By knowing the risk and ways to mitigate them we are able to create a project were risks are less likely to occur. As parts of the projects were getting near completion others risks were added to the template and all of them revisited.This file can be found in [Risk Assessment](https://github.com/bmanzanoqa/PythonProjects/blob/main/MICEX/Screenshots.png/ERD%202%20tables.PNG)
+We use Risk Assessments to evaluate scenarios that may impact the project in a negative way. By knowing the risk and ways to mitigate them we are able to create a project were risks are less likely to occur. As parts of the projects were getting near completion others risks were added to the template and all of them revisited.This file can be found in [Risk Assessment](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/RA%20latest.PNG).
 
 Below is a screenshot of the Risk Assessment I have carried out for this project. To see an earlier copy of it you can go to this [First Risk Assessment](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/RA%201.PNG). 
 
-![Risk Assessment][https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/RA%20latest.PNG]
+![Risk Assessment](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/RA%20latest.PNG)
 
 
 ## CI Pipeline
@@ -86,50 +97,66 @@ For the testing side of the peoject I have used pytest as testing environment an
 
 ![CI Pipeline](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CI%20Pipeline.PNG)
 
+
+### JENKINS
+Jenkins is an open-source implementation of a Continuous Integration server written in Java. It works with multiple programming languages and can run on various platforms (Windows, Linux, and macOS). It is widely used as a CI (Continuous Integration) & CD (Continuous Delivery) tool.
+Within this project I have used Jenkins to automatize tasks that are monotonous and can be easily done by running a script.
+![Installing Jenkins]()
+![Jenkins Build]()
+![Jenkins console Output]()
+![Jenkins not connecting]()
+![Jenkins Script]()
+
+
+
+
+
+
 ## Testing
 As with most things, testing is the part where, after you have hit your head against the table for a 1000 times because you could not get the app to work when you were developing, then this 'testing' comes around and finishes you. When you thought that everything work, you have that feeling of accomplishment and triumph, you feel like a winner because your app does what you tell it to do... you decide to run 'some tests' and your app crashes. Yes, that is what happened to me every time I tried to run the Integration testing. 
 I have used pytest as my testing tool. 
 
 I started with unit testing, runing a total of 12 tests and reaching 95% of the covering report as you can see in the image below. You can also look at the HTML report [here](file:///C:/Users/B/Desktop/MICEXFinal/htmlcov/index.html).
 
-Screenshots of my progress are below:
-[coverage1]()
-[final report]()
+Screenshots of my progress are below:  
+[Some Time Ago](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Coverage%201.png)  
+[Final report](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/final%20coverage.png)
+
 
 
 
 Below is my first error when running unit testing with pytest....
-[First error]()
-And it finally worked! I think what caused me more trouble with the unit testing were the validators. 
+[First error](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/First%20error%20running%20pytest.png).  
+And it finally worked! I think what caused me the most trouble with the unit testing were the validators. 
 
 Here you can see some of the many errors I encountered with doing [integration testing](https://onedrive.live.com/view.aspx?resid=96A94FCBFABC7DB5%2170903&id=documents&wd=target%28MICEX.one%7C5462FF26-5891-4F62-AC9E-01DC3AAB8BC9%2FErrors%7CC861D920-7CD4-41FE-B595-D82E5FE51456%2F%29). My machine just refuses to connect.... I would be logged into the terminal of the VM and I would be running a test and even though I am connected to it I will get errors saying it cannot connect. 
 
 
 
 
+# Front-end Line
+
+![First time app worked]()
 
 
 
 
+# GCP
+<details>
+<summary>"Click to expand"</summary>
+![Logging connection app through GCP]()  
+![unable to connect1]()  
+![unable to connect2]()  
+![unable to connect3]()  
+![unable to connect4]()  
+![VM running]()
+![Installed Flask but it does not exist]()
 
+<details>
 
-
-Opening Microblocks Exhibitions ....
-Deleting any previous databases, please wait .....
-Creating a new database
-
-[Link](https://google.com)
-
-![pic](https://github.com/bmanzanoqa/PythonProjects/blob/ba09f39d1323940254550d6a17c1eba15b26bb34/MICEX/Screenshots.png/Bear%20Shopping.jpg)
 
 | Left Align  | Centre Align | Right Align   |
 | :---        |    :----:    |          ---: |
 | Row1        | Row1         | Row1          |
 | Row2        | Row2         | Row2          |
-
-
-<details>
-<summary>"Click to expand"</summary>
-this is hidden
-</details>
 
