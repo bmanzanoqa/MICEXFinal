@@ -105,7 +105,10 @@ For the testing side of the peoject I have used pytest as testing environment an
 ![CI Pipeline](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CI%20Pipeline.PNG)
 
 Just as a note, when pushing files to Git that ca be compromised, usernames and passwords are disabled. Please see bellow:
-![PW Protected] ()
+
+![PW Protected] (https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/No%20password%20when%20pushing%20files%20to%20Git.PNG)  
+
+
 ### JENKINS
 Jenkins is an open-source implementation of a Continuous Integration server written in Java. It works with multiple programming languages and can run on various platforms (Windows, Linux, and macOS). It is widely used as a CI (Continuous Integration) & CD (Continuous Delivery) tool.  
 Within this project I have used Jenkins to automatize tasks that are monotonous and can be easily done by running a script.
