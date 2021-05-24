@@ -9,8 +9,6 @@
 * [Databases Structure](#database-structure)
 * [Risk Assessment](#risk-assessment)
 * [CI Pipeline](#ci-pipeline)
-
-
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
 * [Known Issues](#known-issues)
@@ -23,12 +21,12 @@ I love building 'stuff' with microblock pieces. My project is based in the idea 
 This here is how all started.... [First Idea](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Starting%20point.png) and [Project Structure](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Project%20Structure.png).  
 One day.... it will look like that, till then....
 <details>
-<summary>"Click to expand"</summary>
-![Login]()
-![Items CR]()
-![Items UD]()
-![Exhibitions CR]()
-![Exhibitions UD]()
+<summary>"Click me!"</summary>
+![Login](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD1.png) 
+![Items CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD2.png)  
+![Items UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD3.png)  
+![Exhibitions CR](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD4.png)  
+![Exhibitions UD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/CRUD5.png)  
 </details>
 
 ## So.... the simpler version:
@@ -73,11 +71,11 @@ In the pictures below we can see an Entity Relationship Diagram explaining the r
 
 ![ERD](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/ERD%202%20tables.PNG)
 
-I created a database in a virtual machine with mysql. The screenshot below shows the data defined for the columns.  
-![Tables]()  
-![Sql Insert]()  
-![Creating a DB message]()
-![SQL INSERT INTO]()
+I created a database in a virtual machine with mysql. The screenshot below shows the data defined for the columns and other actions carried out
+![Tables](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/DB%20Tables.png)  
+![Sql Insert INTO](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/SQL%20Insert%20INTO.png)  
+![Creating a DB message](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Creating%20a%20DB.PNG)
+
 
 ## Risk Assessment
 We use Risk Assessments to evaluate scenarios that may impact the project in a negative way. By knowing the risk and ways to mitigate them we are able to create a project were risks are less likely to occur. As parts of the projects were getting near completion others risks were added to the template and all of them revisited.This file can be found in [Risk Assessment](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/RA%20latest.PNG).
@@ -101,11 +99,9 @@ For the testing side of the peoject I have used pytest as testing environment an
 ### JENKINS
 Jenkins is an open-source implementation of a Continuous Integration server written in Java. It works with multiple programming languages and can run on various platforms (Windows, Linux, and macOS). It is widely used as a CI (Continuous Integration) & CD (Continuous Delivery) tool.
 Within this project I have used Jenkins to automatize tasks that are monotonous and can be easily done by running a script.
-![Installing Jenkins]()
-![Jenkins Build]()
-![Jenkins console Output]()
-![Jenkins not connecting]()
-![Jenkins Script]()
+![Installing Jenkins](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Installing%20Jenkins.PNG)
+![Jenkins Build](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20Build.PNG)
+![Jenkins Script](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Jenkins%20script.PNG)
 
 
 
@@ -116,11 +112,11 @@ Within this project I have used Jenkins to automatize tasks that are monotonous 
 As with most things, testing is the part where, after you have hit your head against the table for a 1000 times because you could not get the app to work when you were developing, then this 'testing' comes around and finishes you. When you thought that everything work, you have that feeling of accomplishment and triumph, you feel like a winner because your app does what you tell it to do... you decide to run 'some tests' and your app crashes. Yes, that is what happened to me every time I tried to run the Integration testing. 
 I have used pytest as my testing tool. 
 
-I started with unit testing, runing a total of 12 tests and reaching 95% of the covering report as you can see in the image below. You can also look at the HTML report [here](file:///C:/Users/B/Desktop/MICEXFinal/htmlcov/index.html).
+I started with unit testing, runing a total of 12 tests and reaching 95% of the covering report as you can see in the image below. You can also look at the HTML report [here](file:///C:/Users/B/Desktop/MICEXFinal/Supporting%20Files/Coverage%20Report.html).
 
 Screenshots of my progress are below:  
-[Some Time Ago](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Coverage%201.png)  
-[Final report](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/final%20coverage.png)
+![Some Time Ago](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Coverage%201.png)  
+![Final report](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/final%20coverage.png)
 
 
 
@@ -136,20 +132,20 @@ Here you can see some of the many errors I encountered with doing [integration t
 
 # Front-end Line
 
-![First time app worked]()
+![First time app worked](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/First%20time%20home%20page%20worked.PNG)
 
 
 
 
 # GCP
 <details>
-<summary>"Click to expand"</summary>
-![Logging connection app through GCP]()  
-![unable to connect1]()  
-![unable to connect2]()  
-![unable to connect3]()  
-![unable to connect4]()  
-![VM running]()
+<summary>"Click me!!"</summary>
+![Logging connection app through GCP](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Logging%20connecting%20app%20through%20GCP.PNG)  
+![unable to connect1](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%2023.04.PNG)  
+![unable to connect2](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%2023.05%2020.04.PNG)  
+![unable to connect3](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20DB%20exp%2023.04.PNG)  
+![unable to connect4](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Unable%20to%20connect%20to%20VM%2023.05%2020.09.PNG)  
+![VM running](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/VM%20running%20APP.PNG)
 ![Installed Flask but it does not exist]()
 
 <details>
