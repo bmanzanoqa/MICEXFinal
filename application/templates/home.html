@@ -5,18 +5,17 @@
 
     <br>
     
-    <img src="BS.png" alt="">
-    
+
     <h1><em>Exhibitions</em></h1>
 
 <p>       {% for exhibition in lists["exhibitionsList"] %}
     
-            {{ exhibition.name }}
-            {{ exhibition.descriptions }}
-            {{ exhibition.exhDuration }}
-            {{ exhibition.exhLocation }}
-            {{ exhibition.exhDate }}
-            <br>
+            <p></p><b>Exhibition Name</b> == {{ exhibition.name }}
+            <p><b>Description</b> == {{ exhibition.descriptions }}
+            <p><b>Duration</b> == {{ exhibition.exhDuration }}
+            <p><b>Date</b> == {{ exhibition.exhDate }}
+            <p><b>Location</b> == {{ exhibition.exhLocation }}
+                        <br>
 
             <form action="{{ url_for('updatex', exhibitionsID=exhibition.exhibitionsID) }}">
                 <input type=submit value="Update">
@@ -31,19 +30,23 @@
     <br>
     
     <h1><em>Items</em></h1>
-    
-        {% for item in lists["itemsList"] %}
-        
-            {{ item.name }} Exhibition: {{ item.builds.name }}
 
-            {{ item.name }}
-            {{ item.ageLevel }}
-            {{ item.difficultyLevel }}
-            {{ item.numberOfPieces }}
-            {{ item.dateBuilt }}
-            {{ item.photo }}
-                        
-            <br>
+    
+        
+        {% for item in lists["itemsList"] %}
+
+        <h3>{{ item.name }} ==>>Exhibition: {{ item.builds.name }}</h3>
+
+            <p><b>Name</b> == {{ item.name }}
+            <p><b>Age Lavel</b> == {{ item.ageLevel }}
+            <p><b>Difficulty Level</b> == {{ item.difficultyLevel }}
+            <p><b>Number of Pieces</b> == {{ item.numberOfPieces }}
+            <p><b>Date Built</b> == {{ item.dateBuilt }}   
+            <p><b>Photo</b> == {{ item.photo }}
+            <p><b>Comments</b> == {{ item.comments }}    
+            <!-- <p><b>Exhibition ID</b> == {{ exhibitionsID }}    -->
+
+
             
             <form action="{{ url_for('updatit',itemsID=item.itemsID) }}">
                 <input type=submit value="Update">

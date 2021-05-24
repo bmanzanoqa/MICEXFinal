@@ -2,28 +2,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Microblocks Exhibitions</title>
     <style>
-        em{color: blue;
-        font-style:normal;}
+        #connav ul {
+        list-style: none;
+        color: blue;
+        font-style:normal;
+        margin-left: 1px;
+    }
+
+        #connav ul li {
+            background-color: rgb(215, 184, 247);
+            color: #ebeef2;
+            height: 50px;
+            width: 150px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 50px;
+            float: left;
+            margin-left: 1px;
+        }
+
+        #connav ul li:hover {
+            background-color: #62a4f5;
+            color: black;
+        }
 
     </style>
 </head>
 
 <body>
-    <h1>Microblocks Exhibitions</h1>
-    <!-- to add html links to all the pages we do this:-->
-    <a href="{{ url_for('home') }}">Home</a>  
-    <br>
-    <a href="{{ url_for('addex') }}">Add Exhibition</a>
-    <br>
-    <a href="{{ url_for('addit') }}">Add Item</a>
-    <br>
-    <a href="{{ url_for('updatex', exhibitionsID=1) }}">Update Exhibition</a>
-    <br>
-    <a href="{{ url_for('updatit', itemsID=1) }}">Update Item</a>
-    <br>
+
+<header> 
+
+   <h1>Microblocks Exhibitions</h1></div>
+    <div id="connav">
+            
+      
+        
+           
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('addex') }}">Add Exhibition</a></li>
+                <li><a href="{{ url_for('addit') }}">Add Item</a></li>
+                <li><a href="{{ url_for('updatex', exhibitionsID=1) }}">Update Exhibition</a></li>
+                <li><a href="{{ url_for('updatit', itemsID=1) }}">Update Item</a></li>                
+            </ul>
+         
+    </div>
+</header>
+<br>
+<br>
+<br>
 
     {% block body %}
 

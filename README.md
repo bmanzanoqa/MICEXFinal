@@ -11,6 +11,7 @@
 * [CI Pipeline](#ci-pipeline)
 * [Testing](#testing)
 * [Front-End Design](#front-end-design)
+* [Images](#images)
 * [Authors](#authors)
 * [Thank you!](#thank-you)
 
@@ -135,9 +136,6 @@ Screenshots of my progress are below:
 ![Final report](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/final%20coverage.png)  
 
 
-
-
-
 # Front-end Line
 As per the scope of this project I have created a CRUD application where I am able to Create Items and Exhibitions, Read them, Update boths and Delete them. This should be sufficient for the scope of the project.
 
@@ -159,8 +157,6 @@ As the project has progressed the file directory has changed as shown in the pic
 
 
 ![After Testing](https://github.com/bmanzanoqa/MICEXFinal/blob/main/Supporting%20Files/Directories2.PNG)
-
-
 
 # GCP
 I have been using GCP as a cloud provider for this projects. I have created a Virtual Machine Ubuntu 18.04LTS and a MySql Database to house the data needed.
@@ -185,9 +181,27 @@ In many occasions I have different issues with conecting to both machines and th
 
 </details>
 
+## Images
+Perhaps after all this reading you would like to see some of those items I kep talking about in here? Just 
+<details>
+<summary>"Click me!!"</summary>
+
+![Famous Buildings1](https://github.com/bmanzanoqa/MICEXFinal/blob/main/images/Famous%20Buildings1.png)
+
+![Great wall of China](https://github.com/bmanzanoqa/MICEXFinal/blob/main/images/Great%20wall%20of%20Chine.png)
+
+![Stitch](https://github.com/bmanzanoqa/MICEXFinal/blob/main/images/Stitch.png)
+
+
+![Lean Tower of Pisa](https://github.com/bmanzanoqa/MICEXFinal/blob/main/images/Lean%20Tower%20of%20Pisa.png)
+
+![Dumbo](https://github.com/bmanzanoqa/MICEXFinal/blob/main/images/Dumbo.png)
+
+</details>
 
 ## Author
 Beatriz Manzano finished the first part of this project on the 24/05/2021
+
 
 ## Thank you!
 Thank you to my trainers and everyone in my class for all the patience they have had and the help they have always provided.
